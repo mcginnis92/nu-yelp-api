@@ -1,0 +1,27 @@
+{
+  "name": "nu-yelp-api",
+  "version": "1.0.0",
+  "description": "server for yelp api requests",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "yelp-fusion": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcginnis92/nu-yelp-api.git"
+  },
+  "author": "Molly Moran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcginnis92/nu-yelp-api/issues"
+  },
+  "homepage": "https://github.com/mcginnis92/nu-yelp-api#readme"
+}
