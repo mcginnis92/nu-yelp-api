@@ -31,7 +31,7 @@ app.get("/api/:latitude/:longitude", function(req, res) {
         radius: 3219,
         latitude: latitude,
         longitude: longitude
-    }).then(response => res.send(response.jsonBody.businesses[0]));
+    }).then(response => res.send(response.jsonBody.businesses));
 });
 
 // LISTENER
